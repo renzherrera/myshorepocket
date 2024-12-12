@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-news-app-starter",
-    "slug": "expo-news-app-starter",
+    "name": "myshorepocket",
+    "slug": "myshorepocket",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rgherrera.myshorepocket"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ca16eaaa-4e12-4f6d-9867-5a9215aef270"
+      }
+    },
+    "owner": "rgherrera"
   }
 }
